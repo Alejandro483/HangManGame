@@ -1,0 +1,133 @@
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@font-face {
+  font-family: sans-serif;
+  
+}
+
+.containerMain {
+  width: min(80%, 960px);
+  margin: 50px;
+  text-align: left;
+}
+
+.question {
+  color: #fff;
+  font-size: 2.2rem;
+  margin-top: 20%;
+}
+#guesses {
+  color: #fff;
+  font-size: 2.2rem;
+  letter-spacing: 1.5rem;
+  margin-top: 20%;
+}
+
+.turns {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+
+.turns h4 {
+  color: #fff;
+  font-size: 2rem;
+}
+.turns h5 {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.answer {
+  color: #fff;
+  display: block;
+  font-size: 2.6rem;
+  letter-spacing: 1.5rem;
+  margin-top: 40px;
+}
+
+#answer {
+  color: #fff;
+  display: block;
+  font-size: 2.6rem;
+  letter-spacing: 1.5rem;
+  margin-top: 40px;
+}
+
+.containerMain img {
+  object-fit: cover;
+  position: fixed;
+  z-index: -999;
+  min-width: 100vw;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.mainh1 {
+  margin-top: 20%;
+  font-family: space;
+  color: #fff;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.button:hover {
+  transition: ease-in 1s;
+  background-color: cornflowerblue;
+}
+
+#mainTitle {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.main {
+
+  position: absolute;
+  top: calc(30% + 185px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: space;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.button {
+  background-color: #2dabf9;
+  border-radius: 10px;
+  border: 1px solid #0b0e07;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Space;
+  font-size: 15px;
+  padding: 20px 60px;
+  text-decoration: none;
+    position: absolute;
+  bottom: 30%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 0;
+  }
+}
+
+@keyframes fill {
+  to {
+    fill: white;
+  }
+}
